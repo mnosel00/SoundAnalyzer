@@ -38,6 +38,7 @@ namespace SoundAnalyzer
             {
                 // Wczytaj plik .wav
                 string filePath = openFileDialog.FileName;
+
                 ProcessAudioFile(filePath);
             }
         }
