@@ -1,0 +1,14 @@
+﻿<Window x:Class="SoundAnalyzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoundAnalyzer"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Open File" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Click="OpenFileButton_Click"/>
+        <oxy:PlotView Name="plotView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,40,0,0"/>
+    </Grid>
+</Window>
